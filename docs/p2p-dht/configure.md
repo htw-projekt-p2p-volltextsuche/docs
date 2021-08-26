@@ -1,7 +1,7 @@
 # Configure
 
 Configured via environmental variables in `variables.env`.
-See: [`variables.env.example`](variables.env.example).
+See: [`variables.env.example`](https://github.com/htw-projekt-p2p-volltextsuche/p2p-dht/blob/main/variables.env.example).
 
 ### `HTTP_PORT`
 
