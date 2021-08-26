@@ -1,0 +1,3 @@
+# Titel der Reden
+Da Bundestagsreden im Protokoll keine traditionellen Titel haben, wurde entschieden, die jeweiligen Tagesordnungspunkte als Titel zu verwenden. Da diese teilweise unverhältnismäßig lang sind, wurde eine Funktionalität zur Kürzung der Titel hinzugefügt.
+In manchen Fällen werden meherere Tagesordnungspunkte in Verbindung miteinander abgearbeitet. In diesem Fall enthält der gekürzte Titel nur die gekürzte Version des erstgenannten Tagesordnungspunktes.

@@ -1,0 +1,2 @@
+# Work division
+During our work on the project, our group naturally tended towards a division of the components into working groups. We had two major groups: The text processing group (crawler, extraction 18, extraction 19) and the fulltext-search group (P2P-DHT and fulltext-search). Aside from these groups, we also had OPS and the UI, which stood more separately on their own.

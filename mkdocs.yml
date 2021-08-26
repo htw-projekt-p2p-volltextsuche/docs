@@ -10,9 +10,47 @@ nav:
     - Credits: home/index.md
     - Basic concepts: home/basic_concepts.md
     - Subject: home/subject.md
-  - Crawler:
-    - Über: crawler/about.md
-    - Installation: crawler/installation.md
+    - Work division: home/work_division.md
+  - Design decisions:
+    - About: design_decisions/about.md
+  - Text Processing: 
+    - Crawler:
+      - Über: crawler/about.md
+      - Installation: crawler/installation.md
+    - Textextraction 19:
+      - Über: textextraction-19/about.md
+      - Titel der Reden: textextraction-19/titel_der_reden.md
+      - Nutzung: textextraction-19/nutzung.md
+      - Anforderungen: textextraction-19/anforderungen.md
+      - Format der zurückgegebenen JSON-Datei: textextraction-19/format.md
+    - Textextraction 18:
+      - About: textextraction-18/textextraction-18.md
+      - Problems: textextraction-18/problems.md
+      - Build Jar File: textextraction-18/build_jar_file.md
+      - Execute: textextraction-18/execute.md
+  - Fulltext-search:
+    - P2P-DHT:
+      - About: p2p-dht/about.md
+      - Design: p2p-dht/design.md
+      - Run: p2p-dht/run.md
+      - Configure: p2p-dht/configure.md
+      - Scripts: p2p-dht/scripts.md
+    - Fulltext-search:
+      - About: fulltext-search/about.md
+      - Get Started: fulltext-search/get_started.md
+      - Retrieve search results: fulltext-search/retrieve_search_results.md
+  - User Interface:
+    - Problemstellung: user_interface/problemstellung.md
+    - Lösungsansatz: user_interface/lösungsansatz.md
+    - Probleme: user_interface/probleme.md
+    - Schlussbetrachtung: user_interface/schlussbetrachtung.md
+    - Verwendung der Software: user_interface/verwendung_der_software.md
+  - OPS:
+    - About: ops/about.md
+    - Setup: ops/setup.md
+    - Challenges: ops/challenges.md
+  - Outlook:
+    - About: outlook/about.md
 
 theme:
   name: 'material'

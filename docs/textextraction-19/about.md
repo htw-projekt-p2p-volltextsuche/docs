@@ -1,0 +1,2 @@
+# Text-Extraktion von Bundestagsreden der 19. Legislaturperiode
+Nimmt Plenarprotokolle der 19. Legislaturperiode oder späteren im XML-Format entgegen und gibt eine JSON-Datei mit Reden aus dem Protokoll zurück.

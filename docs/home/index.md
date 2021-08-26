@@ -11,3 +11,4 @@ This is a project created for the Hochschule für Technik und Wirtschaft in Berl
 - [Simon Breiter](https://github.com/Bresicode)
 - [Stefan Sadewasser](https://github.com/SteSad)
 
+The repository for the project can be found [here](https://github.com/htw-projekt-p2p-volltextsuche)
