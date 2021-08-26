@@ -8,7 +8,9 @@ repo_url: 'https://github.com/htw-projekt-p2p-volltextsuche/docs'
 nav:
   - Home: index.md
   - Crawler:
+    - Über: crawler/about.md
     - Installation: crawler/installation.md
+
 theme:
   name: 'material'
 
