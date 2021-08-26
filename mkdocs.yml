@@ -6,8 +6,8 @@ docs_dir: docs/
 repo_name: 'htw-projekt-p2p-volltextsuche/docs'
 repo_url: 'https://github.com/htw-projekt-p2p-volltextsuche/docs'
 nav:
-    - Home: index.md
-    - Crawler:
-      - Installation: crawler/installation.md
+  - Home: index.md
+  - Crawler:
+    - Installation: crawler/installation.md
 theme:
   name: 'material'
