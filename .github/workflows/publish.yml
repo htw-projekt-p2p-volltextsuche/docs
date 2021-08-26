@@ -9,10 +9,15 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+      - name: Install mkdocs and material theme
+        run: pip install mkdocs-material 
+
+      - name: Deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mkdocs gh-deploy --force
