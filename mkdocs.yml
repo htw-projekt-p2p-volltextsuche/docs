@@ -13,6 +13,9 @@ nav:
     - Work division: home/work_division.md
   - Design decisions:
     - About: design_decisions/about.md
+    - Architecture Diagram: design_decisions/architecture_diagram.md
+    - Speech Handling Diagrams: design_decisions/speech_handling_diagrams.md
+    - Partition by Keyword: design_decisions/partition_by_keyword.md
   - Text Processing: 
     - Crawler:
       - Über: crawler/about.md
