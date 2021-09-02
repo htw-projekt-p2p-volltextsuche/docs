@@ -29,7 +29,7 @@ UI_PORT=80
 ### 9. Stop the nodes again with ```docker-compose down``` if you are done.
 
 ## Production
-The first four steps are documented for transparancy reasons. You can skip them by cloneing this repository and executing install.sh The same goes for a testing-environment on which you don't need to setup the firewall and may already have installed docker (possible with root permissions).
+The first four steps are documented for transparency reasons. You can skip them by cloning this repository and executing install.sh The same goes for a testing-environment on which you don't need to setup the firewall and may already have installed docker (possible with root permissions).
 
 ***Setup without scripts.***
 ### 1. Setup your firewall to allow communication through olny these ports:
