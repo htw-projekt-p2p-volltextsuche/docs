@@ -5,6 +5,9 @@ site_url: https://htw-projekt-p2p-volltextsuche.github.io/docs/
 docs_dir: docs/
 repo_name: 'htw-projekt-p2p-volltextsuche/docs'
 repo_url: 'https://github.com/htw-projekt-p2p-volltextsuche/docs'
+plugins:
+ - search
+ - with-pdf
 nav:
   - Home: 
     - Credits: home/index.md
