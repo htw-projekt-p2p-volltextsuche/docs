@@ -7,7 +7,12 @@ repo_name: 'htw-projekt-p2p-volltextsuche/docs'
 repo_url: 'https://github.com/htw-projekt-p2p-volltextsuche/docs'
 plugins:
  - search
- - with-pdf
+ - with-pdf:
+    author: Boris Caspary, Emma Calewaert, Jonathan Neidel, Joscha Seelig, Leon Enzenberger, Ryan Torzynski, Simon Breiter, Stefan Sadewasser
+    cover_title: P2P Volltextsuche
+    cover_subtitle: Dokumentation Projektstudium
+    copyright: " " 
+    output_path: ../docs.pdf
 nav:
   - Home: 
     - Credits: home/index.md
