@@ -13,4 +13,4 @@ served by it and above the filesystem which is used for storage.
 The services provided are:
 
 - Insertion and retrieval of objects (in our case posting lists)
-- Distributed storage of those objects on multiple node in the network
+- Distributed storage of those objects on multiple nodes in the network
