@@ -1,12 +1,16 @@
 # p2p-dht
 
-Part of a project at HTW to build a distributed full-text-search. [See the rest
-of the project.](https://github.com/htw-projekt-p2p-volltextsuche)
+This peer-to-peer component is responsible for the distribution of the
+fulltext-searches posting lists among the peers inside the network.
+The component is implemented as a DHT based on the [libp2p Framework](https://libp2p.io)
+and implemented in NodeJS.
 
-This repo implements the DHT that hosts the entries of the inverted index for
-the [full-text-search component](https://github.com/htw-projekt-p2p-volltextsuche/fulltext-search).
+In the layer modell it sits between the fulltext-search which is exclusively
+served by it and above the filesystem which is used for storage.
 
-The [slides](https://github.com/htw-projekt-p2p-volltextsuche/vortrag/blob/master/slides.pdf) of our closing presentation include an explaination of how this whole project
-fits together and takes a deeper look into what this component does if you want
-to know more.
+![p2p layers](https://github.com/htw-projekt-p2p-volltextsuche/vortrag/raw/master/images/Schichten-p2p.png)
 
+The services provided are:
+
+- Insertion and retrieval of objects (in our case posting lists)
+- Distributed storage of those objects on multiple node in the network
