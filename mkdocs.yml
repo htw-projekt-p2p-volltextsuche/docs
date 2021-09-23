@@ -62,6 +62,7 @@ nav:
     - Challenges: ops/challenges.md
   - Outlook:
     - About: outlook/about.md
+    - Optimizations: outlook/future_optimizations.md
 
 theme:
   name: 'material'
